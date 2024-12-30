@@ -408,6 +408,14 @@ article .icon {
   margin: 1rem;
 }
 
+.contact-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
 .contact-info-container p {
   font-size: larger;
 }
@@ -420,6 +428,18 @@ article .icon {
   height: 2.5rem;
 }
 
+
+.form-control {
+  width: 435px;
+  display: flex;
+  justify-content: start;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: (250, 250, 250);
+  margin-bottom: 10px;
+
+}
 /* FOOTER SECTION */
 
 footer {
@@ -479,6 +499,9 @@ footer p {
     .about-containers {
       margin-top: 0;
     }
+    .form-control {
+      width: 420px;
+    }
   }
   
   @media screen and (max-width: 600px) {
@@ -533,5 +556,8 @@ footer p {
     }
     .text-container {
       text-align: justify;
+    }
+    .form-control {
+      width: 300px;
     }
   }

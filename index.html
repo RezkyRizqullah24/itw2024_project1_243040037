@@ -12,9 +12,9 @@
       <div class="logo">Rezky Rizqullah</div>
       <div>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
+          <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
+          <li><a href="#experience">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -29,8 +29,9 @@
           <span></span>
         </div>
         <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
           <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -38,7 +39,7 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img src="./assets/eky.jpg" alt="profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -54,13 +55,13 @@
             src="./assets/linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
-            onclick="location.href='https://linkedin.com/'"
+            onclick="location.href='https://www.linkedin.com/in/rezky-rizqullah-431ba631b/'"
           />
           <img
             src="./assets/github.png"
             alt="My Github profile"
             class="icon"
-            onclick="location.href='https://github.com/'"
+            onclick="location.href='https://github.com/RezkyRizqullah24'"
           />
         </div>
       </div>
@@ -71,7 +72,7 @@
       <div class="section-container">
         <div class="section__pic-container">
           <img
-            src="./assets/about-pic.png"
+            src="./assets/eky2.jpg"
             alt="Profile picture"
             class="about-pic"
           />
@@ -264,7 +265,6 @@
                 class="project-img"
               />
             </div>
-            
           </div>
           <div class="details-container color-container">
             <h2 class="experience-sub-title project-title">Project Two</h2>
@@ -275,7 +275,6 @@
                 class="project-img"
               />
             </div>
-            
           </div>
           <div class="details-container color-container">
             <h2 class="experience-sub-title project-title">Project Three</h2>
@@ -286,7 +285,6 @@
                 class="project-img"
               />
             </div>
-            
           </div>
         </div>
       </div>
@@ -301,13 +299,39 @@
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
       <div class="contact-info-upper-container">
+        <div class="contact-form-container">
+          <form name="portofolio-contact-form">
+            <div><label for="name" class="form-label">Nama</label></div>
+            <div>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="nama"
+              />
+            </div>
+            <div><label for="email" class="form-label">Email</label></div>
+            <div>
+              <input type="text" class="form-control" id="email" name="email" />
+            </div>
+            <div><label for="pesan" class="form-label">Pesan</label></div>
+            <div>
+              <textarea class="form-control" id="pesan" name="pesan"></textarea>
+            </div>
+            <div class="btn-container"><button type="submit" class="btn btn-color-1">Send</button></div>
+          </form>
+        </div>
+      </div>
+      <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
             src="./assets/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">rezkyrizqullah2gmail.com</a></p>
+          <p>
+            <a href="mailto:rezky02060411@gmail.com">rezky02060411@gmail.com</a>
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -315,7 +339,7 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/rezky-rizqullah-431ba631b/">LinkedIn</a></p>
         </div>
       </div>
     </section>
@@ -323,7 +347,7 @@
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
-            <li><a href="#about">Home</a></li>
+            <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#experience">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
