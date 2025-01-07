@@ -160,9 +160,9 @@ section {
   display: flex;
 }
 
-/* PROFILE SECTION */
+/* Home SECTION */
 
-#profile {
+#home {
   display: flex;
   justify-content: center;
   gap: 5rem;
@@ -453,7 +453,7 @@ footer p {
 
 /* RESPONSIVE */
 @media screen and (max-width: 1400px) {
-    #profile {
+    #home {
       height: 83vh;
       margin-bottom: 6rem;
     }
@@ -477,7 +477,7 @@ footer p {
     .experience-details-container {
       margin-top: 2rem;
     }
-    #profile,
+    #home,
     .section-container {
       display: block;
     }
@@ -509,7 +509,7 @@ footer p {
     footer {
       height: 40vh;
     }
-    #profile {
+    #home {
       height: 83vh;
       margin-bottom: 0;
     }
